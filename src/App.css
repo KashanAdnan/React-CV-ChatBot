@@ -1,38 +1,184 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins';
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body {
+  width: 100%;
+  height: auto;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.container {
+  width: 80%;
+  display: flex;
+  margin: 4% auto;
+  align-items: center;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+  height: 160vh;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 30px;
+  overflow: hidden;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.img {
+  width: 55%;
+  overflow: hidden;
+  border-right: 1px solid #ccc;
+}
+
+.img img {
+  width: 400px;
+  border-radius: 59% 41% 33% 67% / 50% 43% 57% 50%;
+  height: 400px;
+  object-fit: cover;
+  top: 0;
+}
+
+.img .skills {
+  margin-top: 60px;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.skill {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  height: 70px;
+  flex-direction: column;
+}
+
+.skill h3 {
+  font-weight: 400;
+  margin: 15px 0;
+}
+
+.skill_level {
+  width: 90%;
+  background-color: #e9e9e9;
+  height: 15px;
+  border-radius: 5px !important;
+}
+
+.skill__leve {
+  width: 100%;
+  border-radius: 5px !important;
+  height: 100%;
+}
+
+.html {
+  background-color: tomato;
+  border-radius: 5px !important;
+  width: 80%;
+}
+
+.css {
+  background-color: tomato;
+  border-radius: 5px !important;
+  width: 60%;
+}
+
+.js {
+  background-color: tomato;
+  border-radius: 5px !important;
+  width: 90%;
+}
+
+.word {
+  background-color: tomato;
+  border-radius: 5px !important;
+  width: 40%;
+}
+
+.react {
+  background-color: tomato;
+  border-radius: 5px !important;
+  width: 50%;
+}
+
+.express {
+  background-color: tomato;
+  border-radius: 5px !important;
+  width: 76%;
+}
+
+.db {
+  background-color: tomato;
+  border-radius: 5px !important;
+  width: 100%;
+}
+
+.node {
+  background-color: tomato;
+  border-radius: 5px !important;
+  width: 96%;
+}
+
+.about {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 80%;
+  flex-direction: column;
+  padding-left: 50px;
+}
+
+.about_container {
+  border-bottom: 1px solid #ccc !important;
+  padding: 0 0 30px 0;
+}
+
+.about_container h1 {
+  font-size: 60px;
+  font-weight: 500;
+}
+
+.about_container p {
+  font-size: 19px;
+}
+
+.contact {
+  width: 100%;
+}
+
+.contact h1 {
+  font-size: 60px;
+  font-weight: 500;
+}
+
+.contact ul {
+  list-style: decimal;
+}
+
+.contact ul li {
+  font-size: 19px;
+  margin-bottom: 10px;
+}
+
+.experice {
+  width: 100%;
+  border-bottom: 1px solid #ccc !important;
+  padding: 0 0 30px 0;
+}
+
+.experice h1 {
+
+  font-size: 60px;
+  font-weight: 500;
+}
+
+.experice p {
+
+  font-size: 19px;
 }
